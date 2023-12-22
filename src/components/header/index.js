@@ -1,3 +1,4 @@
+import Link from "next/link";
 import DonationForm from "../donation";
 import Donation from "../donation";
 import Hero from "./Hero";
@@ -31,7 +32,7 @@ export const Header = () => {
                   fill out the form next to this text and we will contact you as
                   soon as possible.
                 </p>
-                <a
+                <Link
                   href="/"
                   aria-label=""
                   className="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-teal-400 hover:text-teal-700"
@@ -44,7 +45,7 @@ export const Header = () => {
                   >
                     <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
                   </svg>
-                </a>
+                </Link>
               </div>
               <DonationForm />
             </div>
