@@ -5,8 +5,8 @@ import { GoGoal } from "react-icons/go";
 const Hero = () => {
   return (
     <div className="min-h-screen">
-      <div className="text-3xl font-bold text-center text-slate-900 uppercase font-sans mt-20 ">
-        About our project and work
+      <div className="text-2xl font-bold text-center text-slate-900 uppercase font-sans mt-20 ">
+        About The Project
       </div>
       <div className="grid lg:grid-cols-2 grid-cols-1 ">
         <div className="lg:mx-40 mt-20 mx-4 border-2 border-gray-200 p-8 ">
