@@ -7,11 +7,9 @@ import Team from "@/components/team";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Header />
       <Sponsors />
       <Team />
-      <Footer />
     </>
   );
 }
