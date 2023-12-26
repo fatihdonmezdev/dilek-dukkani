@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import defacto from "../../../public/sponsors/DeFacto.png";
 import LCW from "../../../public/sponsors/LCW.png";
-import mavi from "../../../public/sponsors/mavi.png";
 import Cukurova from "../../../public/sponsors/Cukurova.png";
 const Sponsors = () => {
   return (
@@ -13,7 +12,11 @@ const Sponsors = () => {
       <div className="grid place-items-center gap-10 mb-10 mt-10">
         <Image src={defacto} width={150} height={150} />
         <Image src={LCW} width={150} height={150} />
-        <Image src={mavi} width={150} height={150} />
+        <Image
+          src="https://i.ibb.co/qxhZxXR/mavi.png"
+          width={150}
+          height={150}
+        />
         <Image src={Cukurova} width={150} height={150} />
       </div>
     </div>
