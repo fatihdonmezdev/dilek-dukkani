@@ -49,13 +49,15 @@ const myData = [
 
     Hafta:
       "Hafta 7 - Dükkanın tanıtımı için okuldaki öğretmenler ile görüşülüp sınıflarda duyuru yapılması.",
-    Detay: "",
+    Detay:
+      "Önceki haftalarda da elimizden geldiğince arkadaşlarımıza , öğretmenlerimize haber verip dükkanımıza temiz ve kullanmadıkları kıyafetlerini , eşyalarını getirebileceklerini söyleyip aynı zamanda ihtiyaçları varsa  özellikle okulumuzun ögrencilerine buradan ihtiyaçlarının olduğu kıyafetleri gelip alabileceğini onun dışında ihtiyaç sahiplerine, arkadaşlarına duyurabileceklerini sürekli söylüyorduk bahsediyorduk. Ama 7. haftamızda bunu biraz daha duyurmak istedik. İngilizce Öğretmenliği bölümünde yeterince biliniyor olsa da okulumuzun farklı fakültelerinde hala böyle bir projenin varlığını bilmeyen, faydalanamayan insanlar vardı. Bu yüzden farklı fakültelerin bölümlerinden hocalarımızla iletişime geçip, veya yakın çevremizdeki arkadaşlarımıza öğretmenlerine haber vermelerini ve sınıfa gelip projemizi duyurmak istediğimizi söyledik. Öğretmenlerimiz bu durumdan gayet memnun oldular ve ders sonlarında fazla vakitlerini almadan bir kaç dakikalık projemiz hakkında konuşup tanıttık, herkesi beklediğimizi söyleyip ihtiyacı olanlara veya haberi olmayanlara da duyurmalarını istedik. Bu şekilde hem ögretmenlerimiz öğrendi hem de bundan faydalanabilecek ögrenciler. Hepsine bu projedeki amaçlarımızı, zorluklarını ve projede ihtiyaç duyulan alanları ilettiğimiz için sonrasında bazılarının bize çok faydası oldu. Öğretmenlerimizden bazı bağışlar geldi, öğrenciler de bu projeyi fırsat bilip kullanmadıkları temiz, yeni eşyalarını getirdiler aynı zamanda dükkanımızdan da faydalanılar. Bu sayede eşyaları, kıyafetleri çöp olmaktan kurtardık ve toplumumuzda mümkün olduğunca sürdürülebilir tüketim bilincini yaydık, emekle türlü aşamalardan geçip önümüze getirilen bu eşyaların ömrünü uzatmış olduk ve kaynak tasarrufuna katkı sağladık.",
   },
   {
     id: 8,
 
     Hafta: "Hafta 8 - Proje tanıtımı için websitesi oluşturma",
-    Detay: "",
+    Detay:
+      "Proje sürecimizin 8. haftasında Dilek Dükkanı'nı daha geniş kitlelere duyurmak ve projemizi daha erişilebilir kılmak amacıyla bir web sitesi oluşturmayı planladık. Bu adım projemize olan ilgiyi artırmak ve ihtiyaç sahiplerine daha etkili bir şekilde ulaşabilmek adına stratejik bir hamle olarak değerlendirildi.Web sitesi projemizin amaçlarını kapsamını ve nasıl destek verilebileceğini detaylı bir şekilde açıklayacak.Dilek Dükkanı'nın konumunu ve iletişim bilgilerini içeren pratik bilgiler sunacak.Dükkanımıza bağış yapmak isteyen destekçilerin web sitesini kullanarak kolayca iletişime geçebilmeleri sağlanacak.Projenin sosyal medya hesaplarına ve etkinlik takvimine erişim sağlanacak.Etkinliklerimiz projenin güncel durumu ve alınan bağışlar gibi içerikler düzenli olarak güncellenecek.Web sitesi aracılığıyla projemizle ilgili haberler ve duyurular geniş kitlelere ulaştırılacak.Dükkanımıza bağışta bulunan firmaların ve sponsorların logosu ve bilgileri paylaşılacak böylece iş birliklerini daha görünür hale getirecek.Web sitesi üzerinden projemize destek olmak isteyen gönüllülerin başvuru yapabileceği bir form sunulacak.Hafta boyunca web sitesinin tasarımı içeriği ve teknik altyapısı üzerinde çalışmalar yapılacak projemizin hedeflerine en uygun ve etkili bir web sitesi oluşturulmaya gayret gösterilecek.",
   },
 ];
 export default myData;
