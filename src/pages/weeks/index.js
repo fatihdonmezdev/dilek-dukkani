@@ -1,6 +1,7 @@
 import React from "react";
 import myData from "../../weeks/data";
 import Link from "next/link";
+import Team from "@/components/team";
 const Weeks = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -65,6 +66,7 @@ const Weeks = () => {
             </>
           ))}
         </div>
+        <Team />
       </div>
     </div>
   );
