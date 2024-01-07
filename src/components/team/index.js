@@ -5,6 +5,7 @@ import fatih from "../../../public/team/fatih.jpg";
 import Hedil from "../../../public/team/Hedil.jpg";
 import asude from "../../../public/team/asude.jpg";
 import can from "../../../public/team/can.jpeg";
+import sevde from "../../../public/team/sevde.jpeg";
 const Team = () => {
   return (
     <div className="my-20">
@@ -32,9 +33,9 @@ const Team = () => {
           </div>
           <div className="flex text-center flex-col items-center">
             <div className="relative lg:w-96 lg:h-96 h-32 w-32">
-              <Image src={Hedil} layout="fill" objectFit="cover" />
+              <Image src={sevde} layout="fill" objectFit="cover" />
             </div>
-            <div className="text-xl font-bold mt-4">Hedil</div>
+            <div className="text-xl font-bold mt-4">Sevde</div>
             <div className="text-gray-500">Store & Storage Organization </div>
           </div>
           <div className="flex text-center flex-col items-center">

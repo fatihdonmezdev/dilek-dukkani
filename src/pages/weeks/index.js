@@ -1,5 +1,6 @@
 import React from "react";
-
+import myData from "../../weeks/data";
+import Link from "next/link";
 const Weeks = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -41,62 +42,28 @@ const Weeks = () => {
           </svg>
         </div>
         <div className="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
-            <div className="p-5">
-              <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-                <svg
-                  className="w-8 h-8 text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+          {myData.map((data) => (
+            <>
+              <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
+                <div className="p-5">
+                  <>
+                    <p key={data.Hafta} className="mb-2 font-bold">
+                      {data.Hafta.substring(0, 100)}
+                    </p>
+                    <p className="text-sm leading-5 text-gray-900">
+                      {data.Detay.substring(0, 200)}...
+                    </p>
+                    <Link href={`/weeks/${data.id}`}>
+                      <p className="mt-4 underline font-bold text-gray-500 hover:text-gray-300 hover:cursor-pointer">
+                        Detayları Gör
+                      </p>
+                    </Link>
+                  </>
+                </div>
+                <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
               </div>
-              <p className="mb-2 font-bold">Week 1</p>
-              <p className="text-sm leading-5 text-gray-900">
-                This is the first week of our project. We opened the store and
-                made a meeting with the team. We got to know each other and
-                started to work on the project.
-              </p>
-              <p className="mt-4 underline font-bold text-gray-500 hover:text-gray-300 hover:cursor-pointer">
-                See More Details
-              </p>
-            </div>
-            <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
-          </div>
-          <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
-            <div className="p-5">
-              <div className="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
-                <svg
-                  className="w-8 h-8 text-deep-purple-accent-400"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
-              </div>
-              <p className="mb-2 font-bold">Week 2</p>
-              <p className="text-sm leading-5 text-gray-900">
-                We cleaned the store, organized the storage and products
-                according to their categories. We also checked the products and
-                made sure that they are in good condition. We also made a
-                meeting with the team and discussed the next steps.
-              </p>
-            </div>
-            <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
-          </div>
+            </>
+          ))}
         </div>
       </div>
     </div>
