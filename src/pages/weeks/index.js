@@ -64,6 +64,9 @@ const Weeks = () => {
                 made a meeting with the team. We got to know each other and
                 started to work on the project.
               </p>
+              <p className="mt-4 underline font-bold text-gray-500 hover:text-gray-300 hover:cursor-pointer">
+                See More Details
+              </p>
             </div>
             <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
           </div>
