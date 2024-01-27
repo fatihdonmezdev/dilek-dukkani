@@ -65,6 +65,20 @@ const Weeks = () => {
               </div>
             </>
           ))}
+          <div className="flex flex-col justify-between overflow-hidden text-left transition-shadow duration-200 bg-white rounded shadow-xl group hover:shadow-2xl">
+            <div className="p-5">
+              <>
+                <p className="mb-2 font-bold">Sonuç Raporu</p>
+                <p className="text-sm leading-5 text-gray-900"></p>
+                <Link href={`/weeks/9`}>
+                  <p className="mt-4 underline font-bold text-gray-500 hover:text-gray-300 hover:cursor-pointer">
+                    Detayları Gör
+                  </p>
+                </Link>
+              </>
+            </div>
+            <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
+          </div>
         </div>
         <Team />
       </div>
