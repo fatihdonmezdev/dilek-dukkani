@@ -70,7 +70,7 @@ const Weeks = () => {
               <>
                 <p className="mb-2 font-bold">Sonuç Raporu</p>
                 <p className="text-sm leading-5 text-gray-900"></p>
-                <Link href={`/weeks/9`}>
+                <Link href={`/weeks/sonuc`}>
                   <p className="mt-4 underline font-bold text-gray-500 hover:text-gray-300 hover:cursor-pointer">
                     Detayları Gör
                   </p>
