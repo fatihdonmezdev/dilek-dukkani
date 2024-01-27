@@ -7,11 +7,13 @@ const Sonuc = () => {
       <div className="flex justify-center gap-20 items-center flex-col text-center mt-20">
         <div className="text-3xl text-gray-700 font-bold">Sonuç Raporu</div>
         <div className="mx-20 text-lg text-gray-500">
-          <b>
-            Proje Ekibi tarafından yürütülen projenin adı: Dilek Dükkanı Projesi
-          </b>
+          <b>Proje Ekibi tarafından yürütülen projenin adı</b>
           <br></br>
-          <b>Proje Ekibi Tarafından Yürütülen Proje Genel Amaçları nelerdir?</b>
+          Dilek Dükkanı Projesi
+          <br></br>
+          <b>
+            Proje Ekibi Tarafından Yürütülen Projenin Genel Amaçları nelerdir?
+          </b>
           <br></br>
           Projemizdeki genel amaç Dilek Dükkanı aracılığıyla hayırsever ve
           iyilik yapmak isteyen bağışçı insanlarımızı, dostlarımızı ihtiyaç
