@@ -74,7 +74,11 @@ const Sonuc = () => {
           bu site aynı zamanda dükkanın tanıtımına da katkı da bulundu.
         </div>
         <div className="mx-20 text-lg text-gray-500">
-          Proje kapsamındaki etkinlikleri gerçekleştirirken nelere dikkat ettik?
+          <b>
+            Proje kapsamındaki etkinlikleri gerçekleştirirken nelere dikkat
+            ettik?
+          </b>
+          <br></br>
           Öncelikle yaptığımız iş bir yardım olduğu için ihtiyacı olan
           insanların rahat hissederek gelmelerini sağlamaya çalıştık.
           Çekinmemeleri için elimizden geldiğince kırıcı olmayan ve kibar bir
@@ -86,9 +90,13 @@ const Sonuc = () => {
           etmek için yaptığımız işin amacına ve ruhuna uygun olarak isim kaydı
           almak veya öğrenci kimliği istemek gibi hareketlerden mümkün olduğunca
           kaçındık ve sadece dükkandaki parçaların takibini yapabilmek için
-          alışverişlerinden sonra aldıkları parça sayısını sorduk. Projenin
-          gerçekleştirilmesi sırasında ne tür sorunlarla karşılaştık? Nasıl
-          çözdük? Yardım olarak verilen kıyafetlerin düşük kondisyonda olması,
+          alışverişlerinden sonra aldıkları parça sayısını sorduk. <br></br>
+          <br></br>
+          <b>
+            Projenin gerçekleştirilmesi sırasında ne tür sorunlarla karşılaştık?
+            Nasıl çözdük?
+          </b>
+          <br></br> Yardım olarak verilen kıyafetlerin düşük kondisyonda olması,
           kullanışsız olması, öğrencilere pek hitap etmeyen parçaların fazlalığı
           ve bunların ayrımını yapmamız gerekmesi, depolama alanımızın küçük
           olması bizim için zordu. Dükkanımızda kıyafetleri yıkamamız
