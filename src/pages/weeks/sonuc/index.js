@@ -8,6 +8,20 @@ const Sonuc = () => {
         <div className="text-3xl text-gray-700 font-bold">Sonuç Raporu</div>
         <div className="mx-20 text-lg text-gray-500">
           <b>
+            Proje Ekibi tarafından yürütülen projenin adı: Dilek Dükkanı Projesi
+          </b>
+          <br></br>
+          <b>Proje Ekibi Tarafından Yürütülen Proje Genel Amaçları nelerdir?</b>
+          <br></br>
+          Projemizdeki genel amaç Dilek Dükkanı aracılığıyla hayırsever ve
+          iyilik yapmak isteyen bağışçı insanlarımızı, dostlarımızı ihtiyaç
+          sahibi olan öğrencilere kavuşturup, ihtiyacı olan kıyafetlere
+          erişmelerini sağlamak. Bu sayede onların giyim ihtiyaçları
+          karşılanırken diğer insanların belki de kullanmadığı ve kendisinin
+          artık tercih etmediği bir ürünün değerlendirilmesi sağlanıyor.
+        </div>
+        <div className="mx-20 text-lg text-gray-500">
+          <b>
             Proje ekibi tarafından yürütülen projenin kapsamında neler
             yapılmıştır?
           </b>{" "}
@@ -112,6 +126,39 @@ const Sonuc = () => {
           gönderdik. Diğer sorunumuz için ise ne kadar yapmayı istemesek de çok
           fazla suistimal eden olduğu için öğrenci kartı istemeye başladık ve
           parça sınırını 5 olarak belirledik.
+        </div>
+        <div className="mx-20 text-lg text-gray-500">
+          <b>
+            Projenin gerçekleşmesi sırasında neler öğrendik projenin bizim
+            yaşamımıza neler katkıları ne oldu?
+          </b>{" "}
+          <br></br>
+          Projenin gerçekleşme sürecinde birçok önemli deneyim kazandık. İlk
+          olarak, takım çalışması ve koordinasyon becerilerimizi geliştirdik.
+          Gönüllüler arasındaki iletişim ve işbirliği, projenin başarılı olması
+          için kritik öneme sahipti. Ayrıca, sorumluluk alma ve zaman yönetimi
+          konularında büyük bir öğrenme yaşadık. Projemizin hayata
+          geçirilmesiyle topluma olan katkımızı görmek, insanların ihtiyaçlarını
+          karşılamak ve bir fark yaratmak bizi büyük bir memnuniyetle doldurdu.
+          Üniversite öğrencilerine kıyafet yardımıyla, onların yaşamlarına
+          olumlu bir etki sağladık. Bu projenin, yardıma ihtiyaç duyanlara umut
+          ve destek olmanın yanı sıra, dayanışma duygusunu da güçlendirdiğine
+          inanıyoruz. Projemiz, sadece ihtiyaç sahiplerine yardım etmekle
+          kalmayıp, aynı zamanda toplumun bir arada durma gücünü de vurguladı.
+          <br></br>
+          <br></br>
+          <b>Projemiz amacına ne kadar ulaşabildi?</b>
+          <br></br> hedef kitlede ne tür değişiklikler gerçekleştirebildik?
+          Projemiz, amacına büyük ölçüde ulaştı ve hedef kitlede anlamlı
+          değişikliklere yol açtı. Kıyafet yardımıyla üniversite öğrencilerine
+          destek sağlayarak, birçok öğrencinin yaşam koşullarını iyileştirdik.
+          Proje kapsamında dağıtılan giysiler, öğrencilerin daha sağlıklı ve
+          güvenli bir yaşam sürmelerine katkı sağladı. Ayrıca, projemiz topluluk
+          içinde dayanışma ve yardımlaşma kültürünü güçlendirdi. Bu sayede,
+          ihtiyaç sahipleri ile yardımseverler arasında güçlü bağlar kuruldu.
+          Projenin başarısı, toplumun ortak çabalarının olumlu etkiler
+          yaratabileceğini gösterdi ve bu da gelecekte benzer inisiyatiflere
+          ilgiyi artırabilir.
         </div>
       </div>
       <Team />
